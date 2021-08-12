@@ -13,6 +13,9 @@ public class Blink : MonoBehaviour
     void Start()
     {
         StartCoroutine(BlinkTrigger());
+
+        
+        
     }
     IEnumerator BlinkTrigger()
     {
@@ -21,6 +24,7 @@ public class Blink : MonoBehaviour
             yield return new WaitForSeconds(period);
             StartCoroutine(BlinkAnim());
         }
+
     }
     IEnumerator BlinkAnim() {
         material.SetTexture("_BaseMap",closedEyes);

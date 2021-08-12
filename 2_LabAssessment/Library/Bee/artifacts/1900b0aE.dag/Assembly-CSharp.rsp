@@ -331,6 +331,7 @@
 "Assets/Blink.cs"
 "Assets/Flicker.cs"
 "Assets/Sleep.cs"
+"Assets/Tester.cs"
 "Assets/TV.cs"
 -langversion:8.0
 
