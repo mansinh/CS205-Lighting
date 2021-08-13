@@ -15,11 +15,11 @@ C:/Users/Admin/Documents/CS205/Lighting/CS205-Lighting/2_LabAssessment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62277
+51964
 Successfully changed project path to: C:/Users/Admin/Documents/CS205/Lighting/CS205-Lighting/2_LabAssessment
 C:/Users/Admin/Documents/CS205/Lighting/CS205-Lighting/2_LabAssessment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 400.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 131.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.9f1 (7a790e367ab3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Resources/UnitySubsystems
@@ -36,44 +36,1037 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.533290 seconds.
+Registered in 0.004866 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.519 seconds
+- Completed reload, in  2.776 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9520ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (2776ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1112ms)
-			LoadAssemblies (185ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (385ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (582ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (226ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.048747 seconds.
+Registered in 0.007902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.550 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2551ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2092ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (732ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (829ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (545ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.9 MB.
+System memory in use after: 157.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 21.055700 ms (FindLiveObjects: 1.993600 ms CreateObjectMapping: 0.459900 ms MarkObjects: 18.495200 ms  DeleteObjects: 0.103600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01Settings.lighting
+  artifactKey: Guid(3fa34d1f01ec54b4384ee182bbe77256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01Settings.lighting using Guid(3fa34d1f01ec54b4384ee182bbe77256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd49669d0b3519e626897bcd47402b') in 0.158882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2277.172625 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01
+  artifactKey: Guid(0a9929b86a5a1204ea182745a57bd3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01 using Guid(0a9929b86a5a1204ea182745a57bd3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3487858f87abb4c39c566f3ed7b9db3e') in 7.120843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.032134 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPDay.asset
+  artifactKey: Guid(3f25a9b9c571b094a90571ff4426eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPDay.asset using Guid(3f25a9b9c571b094a90571ff4426eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e5773280471137a6ea2aa7927d267') in 33.553795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 887.201103 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPDay.asset
+  artifactKey: Guid(3f25a9b9c571b094a90571ff4426eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPDay.asset using Guid(3f25a9b9c571b094a90571ff4426eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a16f9c1003b537570400ba171c2d968') in 0.019176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 576.851174 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/LightingData.asset
+  artifactKey: Guid(c9630551573bf894f98fea27cea99a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/LightingData.asset using Guid(c9630551573bf894f98fea27cea99a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5f63b2df5ac3cb092dda125851d74d') in 0.029959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_dir.png
+  artifactKey: Guid(61bf2e347d67e9544b9b91a997626e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_dir.png using Guid(61bf2e347d67e9544b9b91a997626e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4269f6f91c3167d8523b8828ac74e115') in 0.687724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4c09776b0dabc4848a02ced0575f8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_light.exr using Guid(4c09776b0dabc4848a02ced0575f8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cac7c34ec4725145dc7660e512e23d') in 0.209688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 608.906614 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01Settings.lighting
+  artifactKey: Guid(3fa34d1f01ec54b4384ee182bbe77256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01Settings.lighting using Guid(3fa34d1f01ec54b4384ee182bbe77256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81e4b2343fca2de6de23701fcd918a7') in 0.063130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.332330 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01.unity
+  artifactKey: Guid(1c9c83f564538dd49ac0614cb5d27d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01.unity using Guid(1c9c83f564538dd49ac0614cb5d27d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caee2f246fd045300f2e7ba6542b6886') in 0.013700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.629592 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_dir.png
+  artifactKey: Guid(7c5c9dca0f592434c8b8b28bf562a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_dir.png using Guid(7c5c9dca0f592434c8b8b28bf562a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05d07614d1c338d29f5cad4951a65ae') in 0.098169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_dir.png
+  artifactKey: Guid(8b59aede8ea99cf478ac759af3a3285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_dir.png using Guid(8b59aede8ea99cf478ac759af3a3285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2d215ce52a5e46e57bfd4e52dbb635') in 0.109005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_light.exr
+  artifactKey: Guid(58890fd5cc1dcc44a981762453379c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_light.exr using Guid(58890fd5cc1dcc44a981762453379c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e235302c33b0ae186544e35bd438b649') in 0.157510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c0ef358e69b0f934ca7c7d4851ac6f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_light.exr using Guid(c0ef358e69b0f934ca7c7d4851ac6f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0531e5077f6b8e460619214505d47ef2') in 0.123566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.582830 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_dir.png
+  artifactKey: Guid(fdf66d621d0a285449f6a6290d0504c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_dir.png using Guid(fdf66d621d0a285449f6a6290d0504c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76c7034b7ed843b5c0ebfef679970bc') in 0.071943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329680 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_light.exr
+  artifactKey: Guid(13e4f789476e2b8408911d111d8aaa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_light.exr using Guid(13e4f789476e2b8408911d111d8aaa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db22b88109b9b940840ae594ce057a30') in 0.066402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_dir.png
+  artifactKey: Guid(c51d2bbd688f1894db2b5ee47fb88727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_dir.png using Guid(c51d2bbd688f1894db2b5ee47fb88727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03aeabd9db934a1d9ee3c724870764b6') in 0.099923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_light.exr
+  artifactKey: Guid(e4062a9fd7ce0924b80434fa4b897cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_light.exr using Guid(e4062a9fd7ce0924b80434fa4b897cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6f8051a1995f2b50de3ef0ae7f487c') in 0.123597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_dir.png
+  artifactKey: Guid(582e9af3c2ee8724cb3ebc97f8cfd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_dir.png using Guid(582e9af3c2ee8724cb3ebc97f8cfd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b09855579138efd104bcf6f49e9829d') in 0.103880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_light.exr
+  artifactKey: Guid(361c279ef2cf96945b8656d83f2c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_light.exr using Guid(361c279ef2cf96945b8656d83f2c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7dfc13a61251268129809c21dbeb81') in 0.083085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.238111 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_dir.png
+  artifactKey: Guid(e3b2e02c51fc78940ac328122eb46446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_dir.png using Guid(e3b2e02c51fc78940ac328122eb46446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b011000f49838f3a22d950352383a864') in 0.077485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_light.exr
+  artifactKey: Guid(a99d43bbfc1aac24cb205eb6447874fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_light.exr using Guid(a99d43bbfc1aac24cb205eb6447874fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19510612501cad8d85cfe632474253b5') in 0.074028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_dir.png
+  artifactKey: Guid(3e0f0e99dcaa8ce448789c5f707afe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_dir.png using Guid(3e0f0e99dcaa8ce448789c5f707afe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf961c68f054abc7cb26e128b96e16c9') in 0.064756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_light.exr
+  artifactKey: Guid(8fdecdffb73af3747a7ae6c0c3443a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_light.exr using Guid(8fdecdffb73af3747a7ae6c0c3443a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be9d33f8abc86fbb80f891446b84e18') in 0.061949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_dir.png
+  artifactKey: Guid(09efc16a41c218041947e2af42d58f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_dir.png using Guid(09efc16a41c218041947e2af42d58f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16973961a877120581e2ff6880a814c') in 0.068149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_light.exr
+  artifactKey: Guid(cfca036981ab9ea4cb8e18cb35b7f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_light.exr using Guid(cfca036981ab9ea4cb8e18cb35b7f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcda240e590fe733e59b0b59b5ad54d') in 0.057442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_light.exr
+  artifactKey: Guid(c8465e05685d0f649a28c8c45691b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_light.exr using Guid(c8465e05685d0f649a28c8c45691b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29196c4f17125ff7fcd854b02149bc46') in 0.084441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_dir.png
+  artifactKey: Guid(22e810a342b2aec428750b785ad18130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_dir.png using Guid(22e810a342b2aec428750b785ad18130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19e2bb638e9ed4bd0e87df88023c63c') in 0.111523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_light.exr
+  artifactKey: Guid(6e13da3d9d6541d4bb401a3cb5c51320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_light.exr using Guid(6e13da3d9d6541d4bb401a3cb5c51320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8451b764c727dd290de2f1194728cfba') in 0.064389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_dir.png
+  artifactKey: Guid(520cde6e33adb7d4fb0608c11a81f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_dir.png using Guid(520cde6e33adb7d4fb0608c11a81f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8edf2edd3f76384b2563712c07277ae') in 0.064278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.585782 seconds.
+  path: Assets/URP/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(e634682b9a415f6479459f949260eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/UniversalRenderPipelineAsset.asset using Guid(e634682b9a415f6479459f949260eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5638bd981354b4d0127e2aaff236d60f') in 0.077188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 589.669536 seconds.
+  path: Assets/InteriorAttic/Scenes/Attic_Night/LightingData.asset
+  artifactKey: Guid(ff7ceb06d1cb57c469a98e55759d995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InteriorAttic/Scenes/Attic_Night/LightingData.asset using Guid(ff7ceb06d1cb57c469a98e55759d995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37188a3c624aaf9c252533f1f6529d2') in 13.543941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/InteriorAttic/Scenes/Attic_Night/Lightmap-0_comp_dir.png
+  artifactKey: Guid(0331000472e080046ae8a79e8d398a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InteriorAttic/Scenes/Attic_Night/Lightmap-0_comp_dir.png using Guid(0331000472e080046ae8a79e8d398a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a84aecdbc4d34449c95d3c98738bd6e') in 17.909958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/InteriorAttic/Scenes/Attic_Night/ReflectionProbe-0.exr
+  artifactKey: Guid(b0908c293074b704d8e27836ac9176a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InteriorAttic/Scenes/Attic_Night/ReflectionProbe-0.exr using Guid(b0908c293074b704d8e27836ac9176a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4003670a53f649a9f630c9c708b0ad') in 33.157759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3864.020776 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/LightingData.asset
+  artifactKey: Guid(c9630551573bf894f98fea27cea99a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/LightingData.asset using Guid(c9630551573bf894f98fea27cea99a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0b1f38e1df8804b41283f43d9dc6d0') in 0.100703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_dir.png
+  artifactKey: Guid(61bf2e347d67e9544b9b91a997626e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_dir.png using Guid(61bf2e347d67e9544b9b91a997626e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd043f2bc7ec7245cd8d98888aabe82b1') in 0.256307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4c09776b0dabc4848a02ced0575f8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_light.exr using Guid(4c09776b0dabc4848a02ced0575f8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585c208701a05b77155d3bf31f5413f0') in 0.097315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 301.482477 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/CartoonLowPolyCityLite_01.mat
+  artifactKey: Guid(c8e0240e9684da34f8e797593fcd659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/CartoonLowPolyCityLite_01.mat using Guid(c8e0240e9684da34f8e797593fcd659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a0219c46126b10912c8a70a3ae99b8') in 1.393782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/New Material.mat
+  artifactKey: Guid(95b1b1f76f7d73149a234b8e96d07fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/New Material.mat using Guid(95b1b1f76f7d73149a234b8e96d07fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb6d2c7bd2628d62c4a8ff82bff9c69') in 0.162229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.548608 seconds.
+  path: Assets/InteriorAttic/Scenes/Attic_Night/Lightmap-0_comp_light.exr
+  artifactKey: Guid(38cd59c65d406284c929e5e223a6d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InteriorAttic/Scenes/Attic_Night/Lightmap-0_comp_light.exr using Guid(38cd59c65d406284c929e5e223a6d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5481a5460c8765a86710f25c5d6a72') in 0.323323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.215816 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/matHeadlight.mat
+  artifactKey: Guid(95b1b1f76f7d73149a234b8e96d07fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/matHeadlight.mat using Guid(95b1b1f76f7d73149a234b8e96d07fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff63cc93270ee6e87ee9c5a23c01fed') in 0.081139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.451617 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab
+  artifactKey: Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab using Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2430102dcd5cff12d9e3f60f2760ca') in 0.189980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 557.843844 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/StreetLight.mat
+  artifactKey: Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/StreetLight.mat using Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4c32c1019fa8b1bb615368c6e48d88') in 0.076244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.223998 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/matStreetLight.mat
+  artifactKey: Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/matStreetLight.mat using Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf1d05da861270d6ad277a158eba1ce') in 0.079108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 227.709648 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/matStreetLight.mat
+  artifactKey: Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/matStreetLight.mat using Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc27834c02e2bed4324ea3a73092a545') in 0.223830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.755456 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab
+  artifactKey: Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab using Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b094b54abcacc4c6db3db711ff15b23') in 0.065887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.284046 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab
+  artifactKey: Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab using Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35d9f6754b6dcd0d58da612d0ee78d1') in 0.115130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.970073 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab
+  artifactKey: Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab using Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89897ed862247d6b526d9fc56ad05ad5') in 0.035193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.926654 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab
+  artifactKey: Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab using Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade9cd9ade8a4df96567cfa3f436a1e') in 0.026767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.754842 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab
+  artifactKey: Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/HeadLight.prefab using Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49791a73098389150bcea9946aa84b85') in 0.030929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.283368 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab
+  artifactKey: Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab using Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c3aa2f116a25ec0155ab116ef7cec4') in 0.038750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.103826 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab
+  artifactKey: Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/LampWrapper.prefab using Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dcf494b32252045f93510457dd5e96') in 0.032504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.078470 seconds.
+  path: Assets/CartoonLowPolyCityLite/Materials/matStreetLight.mat
+  artifactKey: Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Materials/matStreetLight.mat using Guid(957e1e774340534459ee52f577405625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadf32326a96c0061c84e2735bc3cce7') in 0.070198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.188175 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02.unity
+  artifactKey: Guid(c6091b8b8d24e5a46ad71b8dd94fec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02.unity using Guid(c6091b8b8d24e5a46ad71b8dd94fec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d8d2b4d5d6446a0dcdb3064a7c7d88') in 0.038100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.927417 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(2ca6caaa89baf68469ed956d4ff6e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-0_comp_shadowmask.png using Guid(2ca6caaa89baf68469ed956d4ff6e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4290c4a1b2cffb36d50e7861a6099d8') in 0.040435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_dir.png
+  artifactKey: Guid(7c5c9dca0f592434c8b8b28bf562a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_dir.png using Guid(7c5c9dca0f592434c8b8b28bf562a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc75509738608a6187fe8ae11e508b1') in 0.087727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(1a01e80686fd1da42976c94c4c222026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_shadowmask.png using Guid(1a01e80686fd1da42976c94c4c222026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235f92b64ab7aa820044e918b436dec1') in 0.078806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c0ef358e69b0f934ca7c7d4851ac6f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-1_comp_light.exr using Guid(c0ef358e69b0f934ca7c7d4851ac6f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a20e85a46addf07dfb6e61caa572980') in 0.106327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.281338 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_dir.png
+  artifactKey: Guid(8b59aede8ea99cf478ac759af3a3285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_dir.png using Guid(8b59aede8ea99cf478ac759af3a3285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98efa59c4c0773a1c3ba893ab412c0b1') in 0.086642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.171411 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPDay 1.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPDay 1.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19b152e1f98bdd3c76eb557d7904922') in 0.064396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.976353 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4c740a78375848acbef48992c445fb') in 0.019352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.869518 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b0708d0cccac659c09b9d5c9322b95') in 0.037786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.345792 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3399fe4514c68fad6b9749bba5d44f36') in 0.017787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.891368 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11731672f32a1ebfb2c043799f119cbe') in 0.044682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.785456 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8342715ed7b02fb2238beeaf26fa06a') in 0.074747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.871754 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_light.exr
+  artifactKey: Guid(58890fd5cc1dcc44a981762453379c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_light.exr using Guid(58890fd5cc1dcc44a981762453379c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4dec509a2649bdc19de1ca80d4ff02') in 12.748958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002093 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_dir.png
+  artifactKey: Guid(c51d2bbd688f1894db2b5ee47fb88727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_dir.png using Guid(c51d2bbd688f1894db2b5ee47fb88727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed01d6eb90ee9e8d1e993a2d55dd956') in 12.935931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.107734 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/HeadLight.prefab
+  artifactKey: Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/HeadLight.prefab using Guid(28bdd65c73047544abe8ad6814dcc8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c45ee0362903bc2b83dd43a33cc8d06') in 1.940051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.550400 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/LampWrapper.prefab
+  artifactKey: Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/LampWrapper.prefab using Guid(81c6e80255c57944a810c4506b248f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31b22329fef214ed3ab40c72bc29d04') in 0.097878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13210.229979 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef
+  artifactKey: Guid(b4517ec124862cb4bb3b8b27d72843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef using Guid(b4517ec124862cb4bb3b8b27d72843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcf4ccd8f62beca0655b25cff49bc89') in 0.101701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.020289 seconds.
+  path: Packages/com.unity.shadergraph/package.json
+  artifactKey: Guid(d5ac453c34e359d439de9d724772ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/package.json using Guid(d5ac453c34e359d439de9d724772ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8c8dd2f31fbe6a6f1a4254fccbe018') in 24.171664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.722892 seconds.
+  path: Packages/com.unity.mathematics/package.json
+  artifactKey: Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.mathematics/package.json using Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1515293689334703c07079cb3659bcae') in 0.035531 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.266979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4883ms)
+		BeginReloadAssembly (1878ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (338ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1107ms)
+		EndReloadAssembly (2831ms)
+			LoadAssemblies (325ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (910ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (822ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (105ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3909.
+Total: 34.141600 ms (FindLiveObjects: 1.654800 ms CreateObjectMapping: 0.617200 ms MarkObjects: 26.850100 ms  DeleteObjects: 5.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59016.897186 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01.unity
+  artifactKey: Guid(1c9c83f564538dd49ac0614cb5d27d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01.unity using Guid(1c9c83f564538dd49ac0614cb5d27d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3dbcb2f3d6cc677ac63b68c18792fe') in 1.751734 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.563416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.309 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5312ms)
+		BeginReloadAssembly (1798ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (245ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (963ms)
+		EndReloadAssembly (3271ms)
+			LoadAssemblies (730ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1139ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (861ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (670ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (143ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 13.993700 ms (FindLiveObjects: 1.217400 ms CreateObjectMapping: 0.556300 ms MarkObjects: 11.072800 ms  DeleteObjects: 1.141900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.127336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4153ms)
+		BeginReloadAssembly (1199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (249ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (169ms)
+		EndReloadAssembly (2735ms)
+			LoadAssemblies (623ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1207ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (79ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3915.
+Total: 6.355500 ms (FindLiveObjects: 0.497000 ms CreateObjectMapping: 0.939900 ms MarkObjects: 4.865700 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 357.152082 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02.unity
+  artifactKey: Guid(c6091b8b8d24e5a46ad71b8dd94fec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02.unity using Guid(c6091b8b8d24e5a46ad71b8dd94fec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2abd0f1c8c09f5e77228077c4f20dc') in 0.113405 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2728ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2305ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (830ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (730ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (556ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (78ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 8.476500 ms (FindLiveObjects: 0.666700 ms CreateObjectMapping: 0.339200 ms MarkObjects: 7.421900 ms  DeleteObjects: 0.045600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.885824 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-1_comp_light.exr
+  artifactKey: Guid(51323606ac8f51a4680bc9576cb70833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-1_comp_light.exr using Guid(51323606ac8f51a4680bc9576cb70833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad33e6068b60a15c93322c55155533c8') in 0.221418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-1_comp_dir.png
+  artifactKey: Guid(4e2e9116e7802c84b99dd23d80f43f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-1_comp_dir.png using Guid(4e2e9116e7802c84b99dd23d80f43f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0189f1fa075b2d468a95570ef64cf55') in 0.094900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-2_comp_light.exr
+  artifactKey: Guid(e169c311d43a84345ab2da9e51353d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-2_comp_light.exr using Guid(e169c311d43a84345ab2da9e51353d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c383358c1f5996475c174a272035f5d') in 0.087933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-2_comp_dir.png
+  artifactKey: Guid(0494bb9c676ace243b48fca80a90262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-2_comp_dir.png using Guid(0494bb9c676ace243b48fca80a90262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682d369d1e71fb3a7fec903bb16b20da') in 0.083986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-0_comp_light.exr
+  artifactKey: Guid(fccacb51ff4126146a6a63e26bb5db5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02/Lightmap-0_comp_light.exr using Guid(fccacb51ff4126146a6a63e26bb5db5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2e734f113f9e282b302b10f082d23e') in 0.080413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.049169 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(6b86c9ebf88727940ab0babd4b884bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-2_comp_shadowmask.png using Guid(6b86c9ebf88727940ab0babd4b884bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5602434c07b1567f514ad8d8910f2d82') in 0.102388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_shadowmask.png
+  artifactKey: Guid(467135dcf22dff54281a8e1823e295e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_shadowmask.png using Guid(467135dcf22dff54281a8e1823e295e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f10265f20ed6c4b45a4c1492721253') in 0.097292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_light.exr
+  artifactKey: Guid(a99d43bbfc1aac24cb205eb6447874fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_light.exr using Guid(a99d43bbfc1aac24cb205eb6447874fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb97217805fcfa9ba73bf7fe639a3c9f') in 0.145085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001607 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_light.exr
+  artifactKey: Guid(361c279ef2cf96945b8656d83f2c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_light.exr using Guid(361c279ef2cf96945b8656d83f2c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006d968c8da4e0ff624d61d64a1d0a13') in 0.125738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_shadowmask.png
+  artifactKey: Guid(90831926241a0374382f76c6658508bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_shadowmask.png using Guid(90831926241a0374382f76c6658508bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b1c4c91ac055f0b01a4cec95db01ee') in 0.120543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_shadowmask.png
+  artifactKey: Guid(578af017dfd18d9438f0f8fde5d79e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_shadowmask.png using Guid(578af017dfd18d9438f0f8fde5d79e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf4342e959cd8dcba9cc8d1c71567f7') in 0.084583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_dir.png
+  artifactKey: Guid(3e0f0e99dcaa8ce448789c5f707afe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_dir.png using Guid(3e0f0e99dcaa8ce448789c5f707afe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08c784d79d2eb765b5cf23c896dd1b1') in 0.085059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1356b7454e73d0b661f7e40c5ce98a6') in 0.073646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002559 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_light.exr
+  artifactKey: Guid(8fdecdffb73af3747a7ae6c0c3443a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_light.exr using Guid(8fdecdffb73af3747a7ae6c0c3443a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f761e7a7febbaba6ee7d10e4910f34ef') in 0.081779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(d5fcaadf365c02d4196534d80c800825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_shadowmask.png using Guid(d5fcaadf365c02d4196534d80c800825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a81d849f10b719467d23522578302e') in 0.094964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_light.exr
+  artifactKey: Guid(e4062a9fd7ce0924b80434fa4b897cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-4_comp_light.exr using Guid(e4062a9fd7ce0924b80434fa4b897cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f510a011d7c42d6739c0900d08f4f36c') in 0.095040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_dir.png
+  artifactKey: Guid(09efc16a41c218041947e2af42d58f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_dir.png using Guid(09efc16a41c218041947e2af42d58f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb82443859c7a0b98552c0f9c9bb6da') in 0.099075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_shadowmask.png
+  artifactKey: Guid(1da05f5308a0d9b45884dc4ac39ed3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_shadowmask.png using Guid(1da05f5308a0d9b45884dc4ac39ed3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ce37b9d03cc85324a48269321f395f') in 0.108646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_light.exr
+  artifactKey: Guid(cfca036981ab9ea4cb8e18cb35b7f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-7_comp_light.exr using Guid(cfca036981ab9ea4cb8e18cb35b7f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec284b5a038583c1d7b5767a9f7a18f') in 0.094609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_light.exr
+  artifactKey: Guid(c8465e05685d0f649a28c8c45691b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_light.exr using Guid(c8465e05685d0f649a28c8c45691b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e713a2f52613cf0ab40f5f30fd2534') in 0.086626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_dir.png
+  artifactKey: Guid(e3b2e02c51fc78940ac328122eb46446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-6_comp_dir.png using Guid(e3b2e02c51fc78940ac328122eb46446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd130fc31a4b9382301627f37677242a6') in 0.087668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_dir.png
+  artifactKey: Guid(582e9af3c2ee8724cb3ebc97f8cfd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_dir.png using Guid(582e9af3c2ee8724cb3ebc97f8cfd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64141c6ce6da6fd3116faa33fe825c48') in 0.090294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_light.exr
+  artifactKey: Guid(6e13da3d9d6541d4bb401a3cb5c51320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_light.exr using Guid(6e13da3d9d6541d4bb401a3cb5c51320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee2e8fc2b3d5d672e1ab09ddf2b63db') in 0.066248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(7c317767c060bf64e8365b015c9b08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_shadowmask.png using Guid(7c317767c060bf64e8365b015c9b08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6d37e3dc73b4c51994e66d02f97dd9') in 0.059266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_dir.png
+  artifactKey: Guid(22e810a342b2aec428750b785ad18130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-10_comp_dir.png using Guid(22e810a342b2aec428750b785ad18130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4e86e71fffd390ee968421af0042b1') in 0.078773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_light.exr
+  artifactKey: Guid(13e4f789476e2b8408911d111d8aaa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_light.exr using Guid(13e4f789476e2b8408911d111d8aaa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ae01414e207683c9ec0db70aecb53e') in 0.123566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_dir.png
+  artifactKey: Guid(520cde6e33adb7d4fb0608c11a81f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-8_comp_dir.png using Guid(520cde6e33adb7d4fb0608c11a81f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c129d971192a59b9921050ddd92402de') in 0.081083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_shadowmask.png
+  artifactKey: Guid(b19f35f7fe56ba74e91952acd1a44c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-5_comp_shadowmask.png using Guid(b19f35f7fe56ba74e91952acd1a44c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa706f7abdedf74f3f3c86bbed98289') in 0.097656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_dir.png
+  artifactKey: Guid(fdf66d621d0a285449f6a6290d0504c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-3_comp_dir.png using Guid(fdf66d621d0a285449f6a6290d0504c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e23452bf622c1d5e761051383d3c02') in 0.089234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_shadowmask.png
+  artifactKey: Guid(a52941f004688fa48be71a0d7868002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/Lightmap-9_comp_shadowmask.png using Guid(a52941f004688fa48be71a0d7868002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaa2f5f20128838712c448fd7db5634') in 0.095514 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.081022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in 103.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (103268ms)
+		BeginReloadAssembly (8241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (161ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (913ms)
+		EndReloadAssembly (89060ms)
+			LoadAssemblies (10919ms)
+			RebuildTransferFunctionScriptingTraits (686ms)
+			SetupTypeCache (79541ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (231ms)
+			SetupLoadedEditorAssemblies (1097ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (253ms)
+				ProcessInitializeOnLoadAttributes (784ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (172ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4341.
+Total: 11.182100 ms (FindLiveObjects: 1.239400 ms CreateObjectMapping: 0.515400 ms MarkObjects: 9.356700 ms  DeleteObjects: 0.067100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174.487198 seconds.
+  path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset
+  artifactKey: Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_01/CityVPNight.asset using Guid(6165a0aedefee044db15f0fb790376b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b06c1806d75e58c41352a0a972a920f') in 0.096061 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

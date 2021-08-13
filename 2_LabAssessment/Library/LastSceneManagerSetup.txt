@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/InteriorAttic/Scenes/Attic.unity
+- path: Assets/CartoonLowPolyCityLite/Scenes/CartoonLowPolyCityLite_02.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
